@@ -1,6 +1,6 @@
 # Flower Power III 
 Veneta Angelova, Lia Boyadzhieva, Kristina Krasteva, Filip Vangelov
-[DEX](https://dex.software/project/details/172-Flower-Power-III)
+#### [DEX](https://dex.software/project/details/172-Flower-Power-III)
 
 ## Goal 
 The goal of the project is to monitor and differentiate between different types of flower species over large areas, which would have a great impact on biodiversity and ecosystem related complications. 
