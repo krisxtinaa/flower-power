@@ -1,0 +1,2 @@
+# For example
+# python partition_dataset.py -x -i "C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\training_demo\images\images_4\flowers" -r 0.1
