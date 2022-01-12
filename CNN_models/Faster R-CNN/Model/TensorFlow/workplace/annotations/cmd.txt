@@ -1,0 +1,14 @@
+python generate_tfrecord.py -x 'C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\training_demo\images\test' -l 'C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\annotations\label_map.pbtxt' -o 'C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\annotations\test.record'
+python generate_tfrecord.py -x 'C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\training_demo\images\train' -l 'C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\annotations\label_map.pbtxt' -o 'C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\annotations\train.record'
+
+
+Example:
+python generate_tfrecord.py -x C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/images/test -l C:/Users/sglvladi/Documents/Tensorflow2/workspace/training_demo/annotations/label_map.pbtxt -o C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/annotations/test.record
+python generate_tfrecord.py -x C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/images/train -l C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/annotations/label_map.pbtxt -o C:/Users/sglvladi/Documents/Tensorflow/workspace/training_demo/annotations/train.record
+
+
+python generate_tfrecord.py -x '.\workspace\training_demo\images\test' -l '.\workspace\annotations\label_map.pbtxt' -o '.\workspace\annotations\test.record'
+
+python generate_tfrecord.py -x "C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\training_demo\images\train" -l "C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\annotations\label_map.pbtxt" -o "C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\annotations\train.record"
+
+python generate_tfrecord.py -x "C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\training_demo\images\test" -l "C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\annotations\label_map.pbtxt" -o "C:\Users\Philip Vangelov\PycharmProjects\pythonProject\TensorFlow\workspace\annotations\test.record"
